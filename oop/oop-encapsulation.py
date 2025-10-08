@@ -53,3 +53,8 @@ print(account1.balance)
 
 ## abstracts logic, allowing users to focus on high level
 ## function and uses of the functions within their needs
+
+## it does so by restricted access to instance variables that are internal
+## or even functions that should be internal, and also if not internal, 
+## how we get and set these variables so our logic can still work, and we 
+## can scale it

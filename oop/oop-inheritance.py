@@ -23,14 +23,14 @@ class Vehicle():
 
 
 class Car(Vehicle):
-    def __init__(self, brand, model, year, doors, wheels): #must have brand model and year (unless set by default)
-        super().__init__(brand, model, year) #use the super function to inherit from vehicle class
+    def __init__(self, brand, model, year, doors, wheels): # must have brand model and year (unless set by default)
+        super().__init__(brand, model, year) # use the super function to inherit from vehicle class
         self.doors = doors
         self.wheels = wheels
 
 
 class Bike(Vehicle):
-    def __init__(self, brand, model, year, wheels): #do not have to redo all the variables needed from vehicle class
+    def __init__(self, brand, model, year, wheels): # do not have to redo all the variables needed from vehicle class
         super().__init__(brand, model, year)
         self.wheels = wheels
 

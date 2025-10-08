@@ -1,6 +1,6 @@
-#Abstraction 
+# Abstraction 
 
-#Reduce complexity by hiding unnecessary details
+# Reduce complexity by hiding unnecessary details
 
 class EmailService:
     def _connect(self):
