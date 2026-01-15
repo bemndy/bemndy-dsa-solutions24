@@ -1,0 +1,41 @@
+# --- Byte-compiled / Optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Very Important) ---
+# Common names for virtual envs
+venv/
+env/
+.venv/
+.env/
+
+# --- Environment Variables & Secrets (CRITICAL) ---
+.env
+.env.local
+.secrets
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- Unit Test / Coverage Reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# --- IDE & Editor Settings (Personal prefs shouldn't be in repo) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
