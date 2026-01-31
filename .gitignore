@@ -36,7 +36,7 @@ htmlcov/
 # --- OS Generated Files ---
 .DS_Store
 Thumbs.db
-./a.out
+a.out
 
 # --- Logs ---
 *.log
